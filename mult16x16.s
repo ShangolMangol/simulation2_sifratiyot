@@ -45,8 +45,7 @@ main:   # Load data from memory
         # shift needed
         slli t2, t2, 8
         add t6, t6, t2
-        
-        
+                
 # End of your code
 ####################
 		

@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Technion/044252_Sifratiyot/simulation2/sim2_files
+vmult32x32
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1673017930
+!i10b 1
+!s100 ;n4BX6DIY^G:SN4kXM;7A1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IX?bZGBZNa57@8[>iGg:G<2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1673012834
+8mult32x32.sv
+Fmult32x32.sv
+!i122 91
+L0 2 48
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1673017930.000000
+!s107 mult32x32.sv|
+!s90 -reportprogress|300|mult32x32.sv|
+!i113 1
+Z7 tCvgOpt 0
+vmult32x32_arith
+R1
+R2
+!i10b 1
+!s100 S@[[fW1SdmJI;aFGW>53c0
+R3
+IKaX3IT1ZEf`_:d36Mb>Ej2
+R4
+S1
+R0
+w1673017400
+8mult32x32_arith.sv
+Fmult32x32_arith.sv
+!i122 90
+L0 2 74
+R5
+r1
+!s85 0
+31
+R6
+!s107 mult32x32_arith.sv|
+!s90 -reportprogress|300|mult32x32_arith.sv|
+!i113 1
+R7
+vmult32x32_fsm
+R1
+R2
+!i10b 1
+!s100 zmHfk>`E6c3mK>9NUdTOz2
+R3
+I=7?R<=IfHWBDV>LTJo38_3
+R4
+S1
+R0
+w1673017319
+8mult32x32_fsm.sv
+Fmult32x32_fsm.sv
+!i122 89
+L0 2 113
+R5
+r1
+!s85 0
+31
+!s108 1673017929.000000
+!s107 mult32x32_fsm.sv|
+!s90 -reportprogress|300|mult32x32_fsm.sv|
+!i113 1
+R7
+vmult32x32_test
+R1
+R2
+!i10b 1
+!s100 8EjD?gkM@b[?P;Y5n><7J1
+R3
+I]3fS4^FbAgV8Ja@IfD@TB2
+R4
+S1
+R0
+w1673017927
+8mult32x32_test.sv
+Fmult32x32_test.sv
+!i122 92
+L0 2 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 mult32x32_test.sv|
+!s90 -reportprogress|300|mult32x32_test.sv|
+!i113 1
+R7

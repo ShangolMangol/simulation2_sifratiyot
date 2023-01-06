@@ -17,7 +17,6 @@ module mult32x32_fast_arith (
 // Put your code here
 // ------------------
 
-
 // End of your code
 
 endmodule

@@ -12,6 +12,42 @@ module mult32x32_test;
 // Put your code here
 // ------------------
 
+mult32x32 uut (
+    .clk(clk),
+    .reset(reset),
+    .start(start),
+    .a(a),
+    .b(b),
+    .busy(busy),
+    .product(product)
+);
+
+initial begin
+    clk = 1'b1;
+    reset = 1'b1;
+    start = 1'b0;
+    
+    #40
+    
+    reset = 1'b0;
+    a = 32'd214008997;
+    b = 32'd213745953;
+    
+    #10
+    start = 1'b1;
+
+    #10
+    start = 1'b0;
+
+
+end
+
+always begin
+    #5
+    clk = ~clk;
+end
+
+
 // End of your code
 
 endmodule
