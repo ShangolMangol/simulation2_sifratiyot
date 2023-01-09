@@ -32,7 +32,7 @@ initial begin
     reset = 1'b0;
     a = 32'd214008997;
     b = 32'd213745953;
-    
+
     #10
     start = 1'b1;
 
