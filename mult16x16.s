@@ -27,24 +27,14 @@ main:   # Load data from memory
 #   mul		<PROD>, <FACTOR1>, <FACTOR2>
 #   and		<PROD>, <PROD>, t0
 
-
-        andi t1, t3, 0xff
-
-        # first 8 x 16
-        mul t2, t1, t4
+        andi t5, t4, 0xff # load first 8 bits from b
+        mul t1, t3, t5 # first multiplication of 16x8
+        and t1, t1, t0
+        srli t5, t4, 8 # shift 8 bits to right
+        mul t2, t3, t5
         and t2, t2, t0
-        # no shift needed
-        add t6, t6, t2
-
-        # second 8 x 16
-        srli t3, t3, 8
-        andi t1, t3, 0xff
-
-        mul t2, t1, t4
-        and t2, t2, t0
-        # shift needed
-        slli t2, t2, 8
-        add t6, t6, t2
+        slli t2, t2, 8 # shift result in 8 bits to left
+        add t6, t1, t2 # add results of two multiplications
                 
 # End of your code
 ####################
